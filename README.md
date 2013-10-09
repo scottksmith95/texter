@@ -24,29 +24,25 @@ If you would prefer to not configure Texter, you can pass these parameters on th
 
 ##Usage:
 
-```javascript
+````javascript
 texter {ToNumber} '{Message}'
 ````
 
-```javascript
+````javascript
 texter {ToNumber} '{Message}' {FromNumber}
 ````
 
-```javascript
+````javascript
 texter {ToNumber} '{Message}' {FromNumber} {TwilioAccountSid}
 ````
 
-```javascript
+````javascript
 texter {ToNumber} '{Message}' {FromNumber} {TwilioAccountSid} {TwilioAuthToken}
 ````
-
--------
 
 ## License
 
 (The MIT License)
-
-Copyright (c) by Tolga Tezel <tolgatezel11@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
