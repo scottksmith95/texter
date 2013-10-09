@@ -25,19 +25,19 @@ If you would prefer to not configure Texter, you can pass these parameters on th
 ##Usage:
 
 ````javascript
-texter {ToNumber} '{Message}'
+node texter {ToNumber} '{Message}'
 ````
 
 ````javascript
-texter {ToNumber} '{Message}' {FromNumber}
+node texter {ToNumber} '{Message}' {FromNumber}
 ````
 
 ````javascript
-texter {ToNumber} '{Message}' {FromNumber} {TwilioAccountSid}
+node texter {ToNumber} '{Message}' {FromNumber} {TwilioAccountSid}
 ````
 
 ````javascript
-texter {ToNumber} '{Message}' {FromNumber} {TwilioAccountSid} {TwilioAuthToken}
+node texter {ToNumber} '{Message}' {FromNumber} {TwilioAccountSid} {TwilioAuthToken}
 ````
 
 ## License
