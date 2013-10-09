@@ -1,0 +1,20 @@
+{
+  "name": "texter",
+  "description": "Send SMS messages using Twilio from Node",
+  "version": "0.0.1",
+  "author": "Scott Smith",
+  "homepage": "https://github.com/scottksmith95/texter",
+  "keywords": [
+    "text",
+    "sms",
+    "twilio"
+  ],
+  "dependencies": {
+  },
+  "main": "./texter.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scottksmith95/texter.git"
+  },
+  "engine": "node"
+}
