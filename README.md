@@ -4,10 +4,9 @@ Send SMS messages using Twilio from Node
 
 ##Installation
 
-```
+````
 npm install texter -g
-
-```
+````
 
 ##Configuration
 
