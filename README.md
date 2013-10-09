@@ -12,7 +12,7 @@ npm install texter -g
 
 Included in the package is ````config.js```` that will allow you to configure Texter with the phone number you want to send texts from along with your Twilio Account Sid and Auth Token.
 
-````javascript
+````
 module.exports = {
     fromNumber: ''
   , accountSid: ''
@@ -22,21 +22,21 @@ module.exports = {
 
 If you would prefer to not configure Texter, you can pass these parameters on the command line when executing a new text message.
 
-##Usage:
+##Usage
 
-````javascript
+````
 node texter {ToNumber} '{Message}'
 ````
 
-````javascript
+````
 node texter {ToNumber} '{Message}' {FromNumber}
 ````
 
-````javascript
+````
 node texter {ToNumber} '{Message}' {FromNumber} {TwilioAccountSid}
 ````
 
-````javascript
+````
 node texter {ToNumber} '{Message}' {FromNumber} {TwilioAccountSid} {TwilioAuthToken}
 ````
 
